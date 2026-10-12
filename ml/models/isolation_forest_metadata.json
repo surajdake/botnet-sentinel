@@ -1,0 +1,17 @@
+{
+  "features": [
+    "network_frequency",
+    "failed_connections",
+    "suspicious_requests",
+    "dns_requests",
+    "unique_destinations",
+    "periodic_connections",
+    "upload_bytes",
+    "download_bytes"
+  ],
+  "min_score": 0.3939823986829547,
+  "max_score": 0.6562346109868243,
+  "model": "IsolationForest",
+  "method": "isolation_forest",
+  "training_rows": 780
+}
